@@ -4,12 +4,15 @@ public class Photographer{
 
   private String name;
 
-  private ArrayList cameras;
+  private ArrayList<Printable> cameras;
 
   public Photographer(String name){
     this.name = name;
-    this.cameras = new ArrayList
+    this.cameras = new ArrayList<Printable>();
+  }
 
+  public String getName(){
+    return this.name;
   }
 
 
