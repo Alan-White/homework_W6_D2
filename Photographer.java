@@ -15,5 +15,9 @@ public class Photographer{
     return this.name;
   }
 
+  public int camerasCount(){
+  return this.cameras.size();
+  }
+
 
 }

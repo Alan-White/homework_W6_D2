@@ -14,9 +14,16 @@ public class PhotographerTest{
     digital = new Digital("Nikon");
   }
 
+//----------------------------------
+
   @Test
   public void hasName(){
     assertEquals("Alan", photographer.getName());
+  }
+
+  @Test
+  public void camerasStartsEmpty(){
+    assertEquals(0, photographer.camerasCount());
   }
 
 }
