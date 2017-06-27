@@ -19,5 +19,13 @@ public class Photographer{
   return this.cameras.size();
   }
 
+  public void addCamera(Printable camera){
+    this.cameras.add(camera);
+  }
+
+  public void removeCamera(Printable camera){
+    this.cameras.remove(camera);
+  }
+
 
 }
